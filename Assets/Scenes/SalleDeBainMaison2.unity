@@ -405,7 +405,7 @@ PrefabInstance:
     - target: {fileID: 4095366979619719970, guid: fe83cea22dedb6941a60f0cf8e7a8f39,
         type: 3}
       propertyPath: m_Name
-      value: wall_001 (2)
+      value: MurTextureBainTherapeutique_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1340,7 +1340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 76478410}
   m_Layer: 0
-  m_Name: Bubbles (1)
+  m_Name: Bubbles_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2869,7 +2869,7 @@ PrefabInstance:
     - target: {fileID: 4095366979619719970, guid: fe83cea22dedb6941a60f0cf8e7a8f39,
         type: 3}
       propertyPath: m_Name
-      value: wall_001
+      value: MurTextureBainTherapeutique_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4125,7 +4125,7 @@ PrefabInstance:
     - target: {fileID: 1452190094293656256, guid: 5238e8afd106be445815267f3e08ed19,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_022
+      value: ToiletteCabineGauche
       objectReference: {fileID: 0}
     - target: {fileID: 2264439381773695098, guid: 5238e8afd106be445815267f3e08ed19,
         type: 3}
@@ -4694,7 +4694,7 @@ GameObject:
   - component: {fileID: 332416961}
   - component: {fileID: 332416960}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: StructureDivisionCabines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4901,7 +4901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 350157285}
   m_Layer: 0
-  m_Name: Bubbles (2)
+  m_Name: Bubbles_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10096,7 +10096,7 @@ PrefabInstance:
     - target: {fileID: 5045846494917122766, guid: deb0c98533b9671468ce5be34e273082,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_018
+      value: PoubelleEtPapierToiletteCabineGauche
       objectReference: {fileID: 0}
     - target: {fileID: 5570286485109670004, guid: deb0c98533b9671468ce5be34e273082,
         type: 3}
@@ -11720,7 +11720,7 @@ PrefabInstance:
     - target: {fileID: 5500347434793880801, guid: 495fc17a3b16c4d48bc5d9e6a9ba2098,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_026
+      value: Bain
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13245,7 +13245,7 @@ GameObject:
   - component: {fileID: 808861282}
   - component: {fileID: 808861281}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: MurFondDesDeuxCabines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13665,7 +13665,7 @@ GameObject:
   - component: {fileID: 818247002}
   - component: {fileID: 818247001}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: MurDroitCabineDroite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13933,7 +13933,7 @@ PrefabInstance:
     - target: {fileID: 1112218069456802777, guid: d5f54016c7c7d314ebfe3c343584264e,
         type: 3}
       propertyPath: m_Name
-      value: Stairs_053
+      value: Escalier
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14736,7 +14736,7 @@ PrefabInstance:
     - target: {fileID: 843254911683477643, guid: 5e0845c310624554180c9dde9bfb9eaa,
         type: 3}
       propertyPath: m_Name
-      value: carpet_012
+      value: TapisBainTherapeutique
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15630,7 +15630,7 @@ PrefabInstance:
     - target: {fileID: 2477798277173383591, guid: 7024187cc17edd64ebf5d30aabdcd24d,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_030
+      value: Lavabo
       objectReference: {fileID: 0}
     - target: {fileID: 2965964274889837341, guid: 7024187cc17edd64ebf5d30aabdcd24d,
         type: 3}
@@ -16515,7 +16515,7 @@ PrefabInstance:
     - target: {fileID: 8383802957506366502, guid: 8c5514f304bc87c4bb2391a40b143c85,
         type: 3}
       propertyPath: m_Name
-      value: floor_004
+      value: PlancherTexture
       objectReference: {fileID: 0}
     - target: {fileID: 9156540362657437340, guid: 8c5514f304bc87c4bb2391a40b143c85,
         type: 3}
@@ -17308,7 +17308,7 @@ GameObject:
   - component: {fileID: 1059169953}
   - component: {fileID: 1059169952}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: MurGaucheCabineGauche
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19491,7 +19491,7 @@ PrefabInstance:
     - target: {fileID: 420500026515006277, guid: 20341573ce32aed4485b1b0b978ca0fc,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_015
+      value: EtagereProduitDevantBain
       objectReference: {fileID: 0}
     - target: {fileID: 1053343303351171583, guid: 20341573ce32aed4485b1b0b978ca0fc,
         type: 3}
@@ -20663,15 +20663,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264357533}
   m_LocalRotation: {x: -0, y: -0.9998488, z: -0, w: 0.017393414}
-  m_LocalPosition: {x: 0, y: 0, z: 0.665}
-  m_LocalScale: {x: 0.089389585, y: 0.10427234, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.99280596}
+  m_LocalScale: {x: 0.07831387, y: 0.29103592, z: 14.975839}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1982813129}
   m_LocalEulerAnglesHint: {x: 0, y: -178.007, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.281, y: 1.972}
+  m_AnchoredPosition: {x: -0.39729398, y: -0.48565376}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1265231982
@@ -21380,7 +21380,7 @@ PrefabInstance:
     - target: {fileID: 4095366979619719970, guid: fe83cea22dedb6941a60f0cf8e7a8f39,
         type: 3}
       propertyPath: m_Name
-      value: wall_001 (1)
+      value: MurTextureBainTherapeutique_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21822,7 +21822,7 @@ PrefabInstance:
     - target: {fileID: 4784380211854125466, guid: e1a0f8b9bdc495745afa2b4039a03ede,
         type: 3}
       propertyPath: m_Name
-      value: Walls_044
+      value: MurBleuStructureBainTherapeutique
       objectReference: {fileID: 0}
     - target: {fileID: 5273249901374436128, guid: e1a0f8b9bdc495745afa2b4039a03ede,
         type: 3}
@@ -23949,7 +23949,7 @@ PrefabInstance:
     - target: {fileID: 377412265846013188, guid: 7f75bdb383039ff46ab51f0750d2d60b,
         type: 3}
       propertyPath: m_Name
-      value: door_030
+      value: Porte
       objectReference: {fileID: 0}
     - target: {fileID: 1042309365103601598, guid: 7f75bdb383039ff46ab51f0750d2d60b,
         type: 3}
@@ -24237,7 +24237,7 @@ PrefabInstance:
     - target: {fileID: 1452190094293656256, guid: 5238e8afd106be445815267f3e08ed19,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_022 (1)
+      value: ToiletteCabineDroite
       objectReference: {fileID: 0}
     - target: {fileID: 2264439381773695098, guid: 5238e8afd106be445815267f3e08ed19,
         type: 3}
@@ -25018,7 +25018,7 @@ PrefabInstance:
     - target: {fileID: 95960071573280514, guid: b28a1648b490e404a8579cccce3cfb18,
         type: 3}
       propertyPath: m_Name
-      value: Walls_002
+      value: MurEnLBainTherapeutique
       objectReference: {fileID: 0}
     - target: {fileID: 729367092579487160, guid: b28a1648b490e404a8579cccce3cfb18,
         type: 3}
@@ -26267,7 +26267,7 @@ PrefabInstance:
     - target: {fileID: 5337898424068467754, guid: 2427b166e4e8cae4c9bb4c42a52285f0,
         type: 3}
       propertyPath: m_Name
-      value: picture_054
+      value: Mirroir
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27503,7 +27503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1670209735}
   m_Layer: 0
-  m_Name: Bubbles (3)
+  m_Name: Bubbles_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28840,7 +28840,7 @@ PrefabInstance:
     - target: {fileID: 5045846494917122766, guid: deb0c98533b9671468ce5be34e273082,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_018 (1)
+      value: PoubelleEtPapierToiletteCabineDroite
       objectReference: {fileID: 0}
     - target: {fileID: 5570286485109670004, guid: deb0c98533b9671468ce5be34e273082,
         type: 3}
@@ -31120,7 +31120,7 @@ PrefabInstance:
     - target: {fileID: 420472903608614673, guid: 51006a110aa203d469c31f9782d98522,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_028
+      value: Serviette
       objectReference: {fileID: 0}
     - target: {fileID: 1053280790188975531, guid: 51006a110aa203d469c31f9782d98522,
         type: 3}
@@ -31862,7 +31862,7 @@ GameObject:
   - component: {fileID: 1982813127}
   - component: {fileID: 1982813126}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: StructurePanneauBainTherapeutique
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31951,7 +31951,8 @@ Transform:
   m_LocalPosition: {x: -0.827, y: 2.146, z: 0.6}
   m_LocalScale: {x: 1.1427304, y: 0.35827994, z: 0.065471}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1264357536}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1992006073
@@ -33967,7 +33968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2132920609}
   m_Layer: 0
-  m_Name: Bubbles
+  m_Name: Bubbles_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34204,7 +34205,6 @@ SceneRoots:
   - {fileID: 1059169955}
   - {fileID: 808861284}
   - {fileID: 1982813129}
-  - {fileID: 1264357536}
   - {fileID: 221918208}
   - {fileID: 439105940}
   - {fileID: 1486448245}
