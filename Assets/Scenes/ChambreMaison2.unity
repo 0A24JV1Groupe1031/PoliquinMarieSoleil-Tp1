@@ -478,6 +478,40 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &166569710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 166569711}
+  m_Layer: 0
+  m_Name: NumeroChambre_122
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &166569711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166569710}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.8658576, y: 3.9263713, z: -0.558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1541198583}
+  - {fileID: 1663403186}
+  - {fileID: 1441994642}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &229361106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -625,7 +659,7 @@ PrefabInstance:
     - target: {fileID: 379853755063303595, guid: 71ec6500407fd1d4db77a263f0ab2c4f,
         type: 3}
       propertyPath: m_Name
-      value: medical_equipment_029 (1)
+      value: TableMedical_123
       objectReference: {fileID: 0}
     - target: {fileID: 1012837499075372817, guid: 71ec6500407fd1d4db77a263f0ab2c4f,
         type: 3}
@@ -743,7 +777,7 @@ PrefabInstance:
     - target: {fileID: 6498412722870421926, guid: d5ffb2a7b3e749b4ca1f5c878e69cd98,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_018 (1)
+      value: PanneauConsigneUn_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -824,22 +858,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1607031766}
     m_Modifications:
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.134
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9263713
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.558
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
@@ -849,7 +883,7 @@ PrefabInstance:
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
@@ -879,13 +913,19 @@ PrefabInstance:
     - target: {fileID: 1733181390181197011, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_015 (1)
+      value: NumeroChambre_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccea6b63ac45d074a9e45f3ecb544b00, type: 3}
+--- !u!4 &383647780 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
+    type: 3}
+  m_PrefabInstance: {fileID: 383647779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &407028476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +1073,7 @@ PrefabInstance:
     - target: {fileID: 6936341685269229070, guid: 9ab0b449b5db8a047be2cd12d356cd34,
         type: 3}
       propertyPath: m_Name
-      value: clothes_027 (1)
+      value: VetementsDeux_123
       objectReference: {fileID: 0}
     - target: {fileID: 7712703188583101620, guid: 9ab0b449b5db8a047be2cd12d356cd34,
         type: 3}
@@ -1340,7 +1380,7 @@ PrefabInstance:
     - target: {fileID: 3587692211845100282, guid: 80fec1f014822844f9a821d70a2230bf,
         type: 3}
       propertyPath: m_Name
-      value: shelf_038 (1)
+      value: Bureau_123
       objectReference: {fileID: 0}
     - target: {fileID: 4215892216918714432, guid: 80fec1f014822844f9a821d70a2230bf,
         type: 3}
@@ -1458,7 +1498,7 @@ PrefabInstance:
     - target: {fileID: 7634418391034892327, guid: 33486b56f7517814d90a6e84a88db1b2,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_002 (2)
+      value: PanierVetementsSouillesUn_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1536,7 +1576,7 @@ PrefabInstance:
     - target: {fileID: 2153110872054884297, guid: 8b41b846b98a4cc4789ba8fe4c1f4efa,
         type: 3}
       propertyPath: m_Name
-      value: medical_chair_005
+      value: ChaiseRoulante_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2150,7 +2190,7 @@ PrefabInstance:
     - target: {fileID: 6370049262349727827, guid: 833e69aa371775f419119d82b69f40c6,
         type: 3}
       propertyPath: m_Name
-      value: hospital_bed_017
+      value: LitHopital_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2344,7 +2384,7 @@ GameObject:
   - component: {fileID: 769856180}
   - component: {fileID: 769856179}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: MurStructureChambreDivision_122_Et_123
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2790,7 +2830,7 @@ PrefabInstance:
     - target: {fileID: 4726881802796123982, guid: 987e681dec107c543849237acd63c19b,
         type: 3}
       propertyPath: m_Name
-      value: hospital_bed_016
+      value: LitHopital_122
       objectReference: {fileID: 0}
     - target: {fileID: 5391531511132167668, guid: 987e681dec107c543849237acd63c19b,
         type: 3}
@@ -3065,22 +3105,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1607031766}
     m_Modifications:
     - target: {fileID: 2811947187957241693, guid: 7a3c581bc58a9b440a6f9668ddb4761e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3285358
+      value: -0.80546427
       objectReference: {fileID: 0}
     - target: {fileID: 2811947187957241693, guid: 7a3c581bc58a9b440a6f9668ddb4761e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9401252
+      value: 0.013753891
       objectReference: {fileID: 0}
     - target: {fileID: 2811947187957241693, guid: 7a3c581bc58a9b440a6f9668ddb4761e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.566
+      value: -0.007999957
       objectReference: {fileID: 0}
     - target: {fileID: 2811947187957241693, guid: 7a3c581bc58a9b440a6f9668ddb4761e,
         type: 3}
@@ -3090,7 +3130,7 @@ PrefabInstance:
     - target: {fileID: 2811947187957241693, guid: 7a3c581bc58a9b440a6f9668ddb4761e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2811947187957241693, guid: 7a3c581bc58a9b440a6f9668ddb4761e,
         type: 3}
@@ -3120,13 +3160,19 @@ PrefabInstance:
     - target: {fileID: 3192449316407594471, guid: 7a3c581bc58a9b440a6f9668ddb4761e,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_017
+      value: NumeroChambre_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a3c581bc58a9b440a6f9668ddb4761e, type: 3}
+--- !u!4 &968460017 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2811947187957241693, guid: 7a3c581bc58a9b440a6f9668ddb4761e,
+    type: 3}
+  m_PrefabInstance: {fileID: 968460016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &996341167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3138,7 +3184,7 @@ PrefabInstance:
     - target: {fileID: 2387000485975129283, guid: ffb1e510a4bdda742877e8b86ec36ff8,
         type: 3}
       propertyPath: m_Name
-      value: picture_042
+      value: DecorationPapillonsEntreTelevisions
       objectReference: {fileID: 0}
     - target: {fileID: 3056682900168320633, guid: ffb1e510a4bdda742877e8b86ec36ff8,
         type: 3}
@@ -3256,7 +3302,7 @@ PrefabInstance:
     - target: {fileID: 677052796570000681, guid: 992f3ef76d8c4694988bd5e03238a0ab,
         type: 3}
       propertyPath: m_Name
-      value: medical_equipment_044 (1)
+      value: PorteSerum_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3434,7 +3480,7 @@ PrefabInstance:
     - target: {fileID: 5542029537837345354, guid: 4db84a2cf4548b940b1d3c3adf957033,
         type: 3}
       propertyPath: m_Name
-      value: Curtains_024 (1)
+      value: RideauFenetre_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3507,7 +3553,7 @@ PrefabInstance:
     - target: {fileID: 5542029537837345354, guid: 4db84a2cf4548b940b1d3c3adf957033,
         type: 3}
       propertyPath: m_Name
-      value: Curtains_024
+      value: RideauFenetre_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3721,7 +3767,7 @@ PrefabInstance:
     - target: {fileID: 2387000485975129283, guid: ffb1e510a4bdda742877e8b86ec36ff8,
         type: 3}
       propertyPath: m_Name
-      value: picture_042 (1)
+      value: DecorationPapillonsChambre_122
       objectReference: {fileID: 0}
     - target: {fileID: 3056682900168320633, guid: ffb1e510a4bdda742877e8b86ec36ff8,
         type: 3}
@@ -3917,7 +3963,7 @@ PrefabInstance:
     - target: {fileID: 6498412722870421926, guid: d5ffb2a7b3e749b4ca1f5c878e69cd98,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_018
+      value: PanneauConsigneUn_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3935,7 +3981,7 @@ PrefabInstance:
     - target: {fileID: 377412265846013188, guid: 7f75bdb383039ff46ab51f0750d2d60b,
         type: 3}
       propertyPath: m_Name
-      value: door_030
+      value: Porte
       objectReference: {fileID: 0}
     - target: {fileID: 1042309365103601598, guid: 7f75bdb383039ff46ab51f0750d2d60b,
         type: 3}
@@ -4205,22 +4251,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1607031766}
     m_Modifications:
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.729
+      value: -0.4050001
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9272072
+      value: 0.00083589554
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.558
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
@@ -4230,7 +4276,7 @@ PrefabInstance:
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
@@ -4260,13 +4306,19 @@ PrefabInstance:
     - target: {fileID: 639337499285719214, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_016 (2)
+      value: NumeroChambre_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f41aa8f7ae8f3e349b955d381602aa49, type: 3}
+--- !u!4 &1221035397 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1221035396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1231713224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4328,7 +4380,7 @@ PrefabInstance:
     - target: {fileID: 7634418391034892327, guid: 33486b56f7517814d90a6e84a88db1b2,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_002
+      value: PanierVetementsSouillesUn_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4574,22 +4626,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 166569711}
     m_Modifications:
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053722
+      value: -0.8121357
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.935
+      value: 0.008628607
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.56
+      value: -0.0019999743
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
@@ -4599,7 +4651,7 @@ PrefabInstance:
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
@@ -4629,13 +4681,19 @@ PrefabInstance:
     - target: {fileID: 639337499285719214, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_016 (1)
+      value: NumeroChambre_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f41aa8f7ae8f3e349b955d381602aa49, type: 3}
+--- !u!4 &1441994642 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1441994641}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1472184484
 GameObject:
   m_ObjectHideFlags: 0
@@ -4758,7 +4816,7 @@ PrefabInstance:
     - target: {fileID: 3587692211845100282, guid: 80fec1f014822844f9a821d70a2230bf,
         type: 3}
       propertyPath: m_Name
-      value: shelf_038
+      value: Bureau_122
       objectReference: {fileID: 0}
     - target: {fileID: 4215892216918714432, guid: 80fec1f014822844f9a821d70a2230bf,
         type: 3}
@@ -4826,7 +4884,7 @@ PrefabInstance:
     - target: {fileID: 379853755063303595, guid: 71ec6500407fd1d4db77a263f0ab2c4f,
         type: 3}
       propertyPath: m_Name
-      value: medical_equipment_029
+      value: TableMedical_122
       objectReference: {fileID: 0}
     - target: {fileID: 1012837499075372817, guid: 71ec6500407fd1d4db77a263f0ab2c4f,
         type: 3}
@@ -5177,22 +5235,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 166569711}
     m_Modifications:
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.8658576
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9263713
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.558
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
@@ -5202,7 +5260,7 @@ PrefabInstance:
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
@@ -5232,13 +5290,19 @@ PrefabInstance:
     - target: {fileID: 1733181390181197011, guid: ccea6b63ac45d074a9e45f3ecb544b00,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_015
+      value: NumeroChambre_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccea6b63ac45d074a9e45f3ecb544b00, type: 3}
+--- !u!4 &1541198583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1388990938535247465, guid: ccea6b63ac45d074a9e45f3ecb544b00,
+    type: 3}
+  m_PrefabInstance: {fileID: 1541198582}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1555645510
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,7 +5316,7 @@ GameObject:
   - component: {fileID: 1555645512}
   - component: {fileID: 1555645511}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: StructureHorizontaleDesDeuxChambres
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5566,6 +5630,40 @@ Transform:
   - {fileID: 1619824362}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1607031765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1607031766}
+  m_Layer: 0
+  m_Name: NumeroChambre_123
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1607031766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607031765}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.134, y: 3.9263713, z: -0.558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 383647780}
+  - {fileID: 1221035397}
+  - {fileID: 968460017}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1619824361
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,22 +5893,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 166569711}
     m_Modifications:
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.473929
+      value: -0.39192867
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9272072
+      value: 0.00083589554
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.558
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
@@ -5820,7 +5918,7 @@ PrefabInstance:
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
@@ -5850,13 +5948,19 @@ PrefabInstance:
     - target: {fileID: 639337499285719214, guid: f41aa8f7ae8f3e349b955d381602aa49,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_016
+      value: NumeroChambre_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f41aa8f7ae8f3e349b955d381602aa49, type: 3}
+--- !u!4 &1663403186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 258027607280538132, guid: f41aa8f7ae8f3e349b955d381602aa49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1663403185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1666648168
 GameObject:
   m_ObjectHideFlags: 0
@@ -6028,7 +6132,7 @@ PrefabInstance:
     - target: {fileID: 3418220467759126264, guid: 129771c64db143e45aaa856f63a11c08,
         type: 3}
       propertyPath: m_Name
-      value: window_020
+      value: Fenetre_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6096,7 +6200,7 @@ PrefabInstance:
     - target: {fileID: 5409402280894221127, guid: 051d6d6500332b341953f49a2365f9c4,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_011
+      value: PanneauConsigneDeux_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6164,7 +6268,7 @@ PrefabInstance:
     - target: {fileID: 7634418391034892327, guid: 33486b56f7517814d90a6e84a88db1b2,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_002 (1)
+      value: PanierVetementsSouillesDeux_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6232,7 +6336,7 @@ PrefabInstance:
     - target: {fileID: 5409402280894221127, guid: 051d6d6500332b341953f49a2365f9c4,
         type: 3}
       propertyPath: m_Name
-      value: hospital_info_board_011 (1)
+      value: PanneauConsigneDeux_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6305,7 +6409,7 @@ PrefabInstance:
     - target: {fileID: 3418220467759126264, guid: 129771c64db143e45aaa856f63a11c08,
         type: 3}
       propertyPath: m_Name
-      value: window_020 (1)
+      value: Fenetre_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6373,7 +6477,7 @@ PrefabInstance:
     - target: {fileID: 7634418391034892327, guid: 33486b56f7517814d90a6e84a88db1b2,
         type: 3}
       propertyPath: m_Name
-      value: bathroom_item_002 (3)
+      value: PanierVetementsSouillesDeux_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6747,7 +6851,7 @@ PrefabInstance:
     - target: {fileID: 6123176626862671181, guid: 6072040d00bf76348b57a6a0047b1e6a,
         type: 3}
       propertyPath: m_Name
-      value: clothes_022
+      value: VetementsTrois_122
       objectReference: {fileID: 0}
     - target: {fileID: 6895631290019586039, guid: 6072040d00bf76348b57a6a0047b1e6a,
         type: 3}
@@ -6893,7 +6997,7 @@ PrefabInstance:
     - target: {fileID: 1236050347772161855, guid: a0ea9257c03b59243a41c88a2372c17c,
         type: 3}
       propertyPath: m_Name
-      value: electronics_034 (1)
+      value: Television_123
       objectReference: {fileID: 0}
     - target: {fileID: 1904043607095342469, guid: a0ea9257c03b59243a41c88a2372c17c,
         type: 3}
@@ -7139,7 +7243,7 @@ PrefabInstance:
     - target: {fileID: 5022823130428477145, guid: b0e049bfcf4bd7b4f9c814052b6ffb5f,
         type: 3}
       propertyPath: m_Name
-      value: clothes_023
+      value: VetementsUn_122
       objectReference: {fileID: 0}
     - target: {fileID: 5692400030082552931, guid: b0e049bfcf4bd7b4f9c814052b6ffb5f,
         type: 3}
@@ -7325,7 +7429,7 @@ PrefabInstance:
     - target: {fileID: 6936341685269229070, guid: 9ab0b449b5db8a047be2cd12d356cd34,
         type: 3}
       propertyPath: m_Name
-      value: clothes_027
+      value: VetementsUn_123
       objectReference: {fileID: 0}
     - target: {fileID: 7712703188583101620, guid: 9ab0b449b5db8a047be2cd12d356cd34,
         type: 3}
@@ -7443,7 +7547,7 @@ PrefabInstance:
     - target: {fileID: 677052796570000681, guid: 992f3ef76d8c4694988bd5e03238a0ab,
         type: 3}
       propertyPath: m_Name
-      value: medical_equipment_044
+      value: PorteSerum_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7857,7 +7961,7 @@ PrefabInstance:
     - target: {fileID: 2153110872054884297, guid: 8b41b846b98a4cc4789ba8fe4c1f4efa,
         type: 3}
       propertyPath: m_Name
-      value: medical_chair_005 (1)
+      value: ChaiseRoulante_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7875,7 +7979,7 @@ PrefabInstance:
     - target: {fileID: 7137417566709250665, guid: f59d784b87d0b654f9205f145fb1c68d,
         type: 3}
       propertyPath: m_Name
-      value: clothes_002
+      value: VetementsDeux_122
       objectReference: {fileID: 0}
     - target: {fileID: 7513943556170850515, guid: f59d784b87d0b654f9205f145fb1c68d,
         type: 3}
@@ -7943,7 +8047,7 @@ PrefabInstance:
     - target: {fileID: 1236050347772161855, guid: a0ea9257c03b59243a41c88a2372c17c,
         type: 3}
       propertyPath: m_Name
-      value: electronics_034
+      value: Television_122
       objectReference: {fileID: 0}
     - target: {fileID: 1904043607095342469, guid: a0ea9257c03b59243a41c88a2372c17c,
         type: 3}
@@ -8039,12 +8143,8 @@ SceneRoots:
   - {fileID: 1920012839}
   - {fileID: 2131349159}
   - {fileID: 1862018085}
-  - {fileID: 1541198582}
-  - {fileID: 383647779}
-  - {fileID: 1663403185}
-  - {fileID: 1221035396}
-  - {fileID: 1441994641}
-  - {fileID: 968460016}
+  - {fileID: 166569711}
+  - {fileID: 1607031766}
   - {fileID: 1052946812}
   - {fileID: 312602890}
   - {fileID: 1688277238}
