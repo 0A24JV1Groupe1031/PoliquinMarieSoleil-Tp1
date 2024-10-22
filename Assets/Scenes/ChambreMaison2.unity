@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 131050115}
   - component: {fileID: 131050114}
   m_Layer: 0
-  m_Name: Mur4
+  m_Name: MurGaucheChambre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,7 +573,7 @@ PrefabInstance:
     - target: {fileID: 7622170798603969944, guid: beb4d4a6e832e384c9ed103a8b7e4393,
         type: 3}
       propertyPath: m_Name
-      value: prop_086 (1)
+      value: TasseCafe_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -641,7 +641,7 @@ PrefabInstance:
     - target: {fileID: 968411348873014094, guid: b90e8c9aa4f052849a23432254e02b9c,
         type: 3}
       propertyPath: m_Name
-      value: electronics_027
+      value: ChauffageElectrique
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -795,7 +795,7 @@ PrefabInstance:
     - target: {fileID: 8536263000399294869, guid: 896d3666efe518a458d773d83ffafbc9,
         type: 3}
       propertyPath: m_Name
-      value: medical_equipment_039
+      value: MachinePression_122
       objectReference: {fileID: 0}
     - target: {fileID: 9024427864600898351, guid: 896d3666efe518a458d773d83ffafbc9,
         type: 3}
@@ -970,7 +970,7 @@ GameObject:
   - component: {fileID: 421041211}
   - component: {fileID: 421041210}
   m_Layer: 0
-  m_Name: Mur1
+  m_Name: MurArriereChambre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1191,7 +1191,7 @@ PrefabInstance:
     - target: {fileID: 2179286107155464339, guid: 29210e6eae1c5b64cb1b80ed4d3bfa4f,
         type: 3}
       propertyPath: m_Name
-      value: medical_equipment_011 (1)
+      value: EquipementMedical_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1749,7 +1749,7 @@ PrefabInstance:
     - target: {fileID: 7622170798603969944, guid: beb4d4a6e832e384c9ed103a8b7e4393,
         type: 3}
       propertyPath: m_Name
-      value: prop_086
+      value: TasseCafe_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2258,7 +2258,7 @@ PrefabInstance:
     - target: {fileID: 3225409422326710527, guid: 791868117a5f4f14db61fbce2c7f1c1e,
         type: 3}
       propertyPath: m_Name
-      value: shelf_016
+      value: EtagereJaune
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2276,7 +2276,7 @@ PrefabInstance:
     - target: {fileID: 3990796153262087827, guid: ee2bed655397808469374ea2e6879028,
         type: 3}
       propertyPath: m_Name
-      value: prop_029 (2)
+      value: HorlogeRectangleDevantPorte
       objectReference: {fileID: 0}
     - target: {fileID: 4335268080438395945, guid: ee2bed655397808469374ea2e6879028,
         type: 3}
@@ -2343,7 +2343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765985609}
   m_Layer: 0
-  m_Name: Lumieres (1)
+  m_Name: Lumieres_123
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2591,7 +2591,7 @@ GameObject:
   - component: {fileID: 801347503}
   - component: {fileID: 801347502}
   m_Layer: 0
-  m_Name: Mur3 (1)
+  m_Name: PlafondChambre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2694,7 +2694,7 @@ PrefabInstance:
     - target: {fileID: 401773373167954802, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
       propertyPath: m_Name
-      value: prop_068
+      value: Cactus_1
       objectReference: {fileID: 0}
     - target: {fileID: 1069801095025570248, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
@@ -2762,7 +2762,7 @@ PrefabInstance:
     - target: {fileID: 401773373167954802, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
       propertyPath: m_Name
-      value: prop_068 (1)
+      value: Cactus_2
       objectReference: {fileID: 0}
     - target: {fileID: 1069801095025570248, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
@@ -2903,7 +2903,7 @@ PrefabInstance:
     - target: {fileID: 5782259624859786473, guid: 1ba64a4ee14403c44a195c3119eec408,
         type: 3}
       propertyPath: m_Name
-      value: floor_023
+      value: TexturePlancher
       objectReference: {fileID: 0}
     - target: {fileID: 6590286684547024467, guid: 1ba64a4ee14403c44a195c3119eec408,
         type: 3}
@@ -3571,7 +3571,7 @@ PrefabInstance:
     - target: {fileID: 1181487992954166436, guid: c4bf00d141da0c24594625793f08fc9e,
         type: 3}
       propertyPath: m_Name
-      value: Curtains_002 (1)
+      value: RideauDroit_123
       objectReference: {fileID: 0}
     - target: {fileID: 1958693916368455198, guid: c4bf00d141da0c24594625793f08fc9e,
         type: 3}
@@ -3845,7 +3845,7 @@ PrefabInstance:
     - target: {fileID: 3990796153262087827, guid: ee2bed655397808469374ea2e6879028,
         type: 3}
       propertyPath: m_Name
-      value: prop_029 (1)
+      value: HorlogeRectangle_122
       objectReference: {fileID: 0}
     - target: {fileID: 4335268080438395945, guid: ee2bed655397808469374ea2e6879028,
         type: 3}
@@ -4051,7 +4051,7 @@ GameObject:
   - component: {fileID: 1127057365}
   - component: {fileID: 1127057364}
   m_Layer: 0
-  m_Name: LumierePlafond (5)
+  m_Name: LumierePlafond_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4204,7 +4204,7 @@ PrefabInstance:
     - target: {fileID: 8703182010830896758, guid: 7ffa5f58e0a53da4d8a214edc18bdbfc,
         type: 3}
       propertyPath: m_Name
-      value: prop_069
+      value: Livres_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4398,7 +4398,7 @@ GameObject:
   - component: {fileID: 1243659565}
   - component: {fileID: 1243659564}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: BackgroundMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4952,7 +4952,7 @@ PrefabInstance:
     - target: {fileID: 1181487992954166436, guid: c4bf00d141da0c24594625793f08fc9e,
         type: 3}
       propertyPath: m_Name
-      value: Curtains_002 (3)
+      value: RideauDroit_122
       objectReference: {fileID: 0}
     - target: {fileID: 1958693916368455198, guid: c4bf00d141da0c24594625793f08fc9e,
         type: 3}
@@ -5137,7 +5137,7 @@ GameObject:
   - component: {fileID: 1539681970}
   - component: {fileID: 1539681969}
   m_Layer: 0
-  m_Name: Mur3
+  m_Name: MurDroitChambre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5523,7 +5523,7 @@ PrefabInstance:
     - target: {fileID: 9022677791764440667, guid: 5732409787f49cf40b823a7fb5886917,
         type: 3}
       propertyPath: m_Name
-      value: picture_050
+      value: OeuvreArt_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5541,7 +5541,7 @@ PrefabInstance:
     - target: {fileID: 3990796153262087827, guid: ee2bed655397808469374ea2e6879028,
         type: 3}
       propertyPath: m_Name
-      value: prop_029
+      value: HorlogeRectangle_123
       objectReference: {fileID: 0}
     - target: {fileID: 4335268080438395945, guid: ee2bed655397808469374ea2e6879028,
         type: 3}
@@ -5795,7 +5795,7 @@ GameObject:
   - component: {fileID: 1653027158}
   - component: {fileID: 1653027157}
   m_Layer: 0
-  m_Name: Mur2
+  m_Name: MurFaceChambre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6650,7 +6650,7 @@ PrefabInstance:
     - target: {fileID: 1140568790439484946, guid: 2247b074fd2c26142b40d43e7f775a02,
         type: 3}
       propertyPath: m_Name
-      value: picture_051
+      value: OeuvreArtDeux_123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6670,7 +6670,7 @@ GameObject:
   - component: {fileID: 1813200022}
   - component: {fileID: 1813200021}
   m_Layer: 0
-  m_Name: LumierePlafond (4)
+  m_Name: LumierePlafond_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6773,7 +6773,7 @@ PrefabInstance:
     - target: {fileID: 1181487992954166436, guid: c4bf00d141da0c24594625793f08fc9e,
         type: 3}
       propertyPath: m_Name
-      value: Curtains_002
+      value: RideauGauche_122
       objectReference: {fileID: 0}
     - target: {fileID: 1958693916368455198, guid: c4bf00d141da0c24594625793f08fc9e,
         type: 3}
@@ -6919,7 +6919,7 @@ PrefabInstance:
     - target: {fileID: 1181487992954166436, guid: c4bf00d141da0c24594625793f08fc9e,
         type: 3}
       propertyPath: m_Name
-      value: Curtains_002 (2)
+      value: RideauGauche_123
       objectReference: {fileID: 0}
     - target: {fileID: 1958693916368455198, guid: c4bf00d141da0c24594625793f08fc9e,
         type: 3}
@@ -7064,7 +7064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1898884397}
   m_Layer: 0
-  m_Name: Lumieres
+  m_Name: Lumieres_122
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7103,7 +7103,7 @@ PrefabInstance:
     - target: {fileID: 401773373167954802, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
       propertyPath: m_Name
-      value: prop_068 (3)
+      value: Cactus_4
       objectReference: {fileID: 0}
     - target: {fileID: 1069801095025570248, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
@@ -7221,7 +7221,7 @@ PrefabInstance:
     - target: {fileID: 2179286107155464339, guid: 29210e6eae1c5b64cb1b80ed4d3bfa4f,
         type: 3}
       propertyPath: m_Name
-      value: medical_equipment_011
+      value: EquipementMedical_122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7733,7 +7733,7 @@ PrefabInstance:
     - target: {fileID: 401773373167954802, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
       propertyPath: m_Name
-      value: prop_068 (4)
+      value: Cactus_5
       objectReference: {fileID: 0}
     - target: {fileID: 1069801095025570248, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
@@ -7801,7 +7801,7 @@ PrefabInstance:
     - target: {fileID: 401773373167954802, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
       propertyPath: m_Name
-      value: prop_068 (2)
+      value: Cactus_3
       objectReference: {fileID: 0}
     - target: {fileID: 1069801095025570248, guid: f02d8a4f251a1b6469a8b5e49c5e3a19,
         type: 3}
