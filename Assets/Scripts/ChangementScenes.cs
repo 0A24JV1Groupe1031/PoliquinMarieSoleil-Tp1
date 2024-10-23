@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 public class ChangementScenes : MonoBehaviour
 {
     public void ChangerSceneUn(){
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("ChambreMaison2");
         
     }
     public void ChangerSceneDeux(){
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("SalonMaison2");
         
     }
     public void ChangerSceneTrois(){
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("SalleDeBainMaison2");
         
     }
 }
