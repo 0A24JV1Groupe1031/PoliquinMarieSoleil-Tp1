@@ -8,12 +8,12 @@ public class ChangementScenes : MonoBehaviour
         SceneManager.LoadScene("ChambreMaison2");
         
     }
-    public void ChangerSceneDeux(){
-        SceneManager.LoadScene("SalonMaison2");
+   public void ChangerSceneDeux(){
+        SceneManager.LoadScene("SalleDeBainMaison2");
         
     }
     public void ChangerSceneTrois(){
-        SceneManager.LoadScene("SalleDeBainMaison2");
+        SceneManager.LoadScene("SalonMaison2");
         
     }
 }
